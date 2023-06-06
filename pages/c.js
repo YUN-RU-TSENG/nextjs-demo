@@ -1,7 +1,7 @@
 function CPage(props) {
     return (
         <div>
-            <h2>APage</h2>
+            <h2>CPage</h2>
             <ul>
                 {props.products.map((item) => (
                     <li key={item.id}>${item.title}</li>
