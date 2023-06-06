@@ -1,4 +1,4 @@
-function APage(props) {
+function CPage(props) {
     return (
         <div>
             <h2>APage</h2>
@@ -11,13 +11,13 @@ function APage(props) {
     )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
     const response = await fetch('https://dummyjson.com/products')
     const data = await response.json()
-    console.log('getStaticProps')
+    console.log('getServerSideProps')
     return {
         props: data,
     }
 }
 
-export default APage
+export default CPage

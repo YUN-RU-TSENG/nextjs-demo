@@ -6,8 +6,9 @@ import Link from 'next/link'
 export default function Home() {
     return (
         <div className={styles.container}>
-            <Link href="/a">this page!</Link>
-            <Link href="/b">this page!</Link>
+            <Link href="/a">getStaticProps</Link>
+            <Link href="/b">useEffect</Link>
+            <Link href="/c">getServerSideProps</Link>
         </div>
     )
 }
