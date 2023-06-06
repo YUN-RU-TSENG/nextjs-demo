@@ -1,6 +1,8 @@
 function APage(props) {
     return (
         <div>
+            <Link href="/b">useEffect</Link> ｜
+            <Link href="/c">getServerSideProps</Link>｜
             <h2>APage</h2>
             <ul>
                 {props.products.map((item) => (

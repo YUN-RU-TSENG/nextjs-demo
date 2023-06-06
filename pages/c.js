@@ -1,6 +1,8 @@
 function CPage(props) {
     return (
         <div>
+            <Link href="/a">getStaticProps</Link> ｜
+            <Link href="/b">useEffect</Link> ｜
             <h2>CPage</h2>
             <ul>
                 {props.products.map((item) => (
