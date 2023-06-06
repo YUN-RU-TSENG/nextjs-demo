@@ -12,7 +12,7 @@ function BPage() {
             <h2>BPage</h2>
             <ul>
                 {data.products?.map((item) => (
-                    <li>${item?.title}</li>
+                    <li key={item.id}>${item?.title}</li>
                 ))}
             </ul>
         </div>
