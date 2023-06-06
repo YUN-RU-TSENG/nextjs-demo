@@ -6,9 +6,9 @@ import Link from 'next/link'
 export default function Home() {
     return (
         <div className={styles.container}>
-            <Link href="/a">getStaticProps</Link>
-            <Link href="/b">useEffect</Link>
-            <Link href="/c">getServerSideProps</Link>
+            <Link href="/a">getStaticProps</Link> ｜ 
+            <Link href="/b">useEffect</Link> ｜
+            <Link href="/c">getServerSideProps</Link>｜
         </div>
     )
 }
